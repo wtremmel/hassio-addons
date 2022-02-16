@@ -13,6 +13,7 @@
     "armv7",
     "i386"
   ],
+  "host_network": true,
   "map": ["config", "addons", "backup", "share", "ssl", "media"],
   "options": {
 	  "rsyncserver": "server",
