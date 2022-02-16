@@ -14,6 +14,9 @@
     "i386"
   ],
   "host_network": true,
+  "privileged": [
+    "NET_ADMIN"
+  ],
   "map": ["config", "addons", "backup", "share", "ssl", "media"],
   "options": {
 	  "rsyncserver": "server",
